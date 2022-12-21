@@ -6,7 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-
+  search = false;
   constructor() {}
+
+  search_package(){
+    this.search=true;
+  }
 
 }
